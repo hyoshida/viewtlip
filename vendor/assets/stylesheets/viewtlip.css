@@ -1,0 +1,20 @@
+.viewtlip_inspector {
+  border: 1px solid transparent;
+}
+
+.viewtlip_inspector:hover {
+  border: 1px solid red;
+}
+
+.viewtlip_virtual_path {
+  display: none;
+  padding: 2px 5px;
+}
+
+.viewtlip_inspector:hover > .viewtlip_virtual_path {
+  display: block;
+  color: white;
+  background-color: red;
+  position: absolute;
+  z-index: 999;
+}
