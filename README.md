@@ -1,6 +1,6 @@
 # Viewtlip
 
-TODO: Write a gem description
+Provide feature to search view files from your browser.
 
 ## Installation
 
@@ -16,9 +16,17 @@ Or install it yourself as:
 
     $ gem install viewtlip
 
+After add there lines in your `app/assets/stylesheets/application.css`:
+
+```css
+/*
+ *= require viewtlip
+ */
+```
+
 ## Usage
 
-TODO: Write usage instructions here
+Please open your application in the browser.
 
 ## Contributing
 
